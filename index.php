@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MyEEB1 Students' Application - Main</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="MyEEB1 Students' Application by the CdE - Chat, take notes, view absences list, view your schedule!" name="description">
+
+    <!-- Open Graph data -->
+  <meta property="og:title" content="MyEEB1 Students' Application">
+  <meta property="og:site_name" content="MyEEB1 Students' Application">
+  <meta property="og:url" content="https://app.bissc.net">
+  <meta property="og:description" content="MyEEB1 Students' Application by the CdE - Chat, take notes, view absences list, view your schedule!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://app.bissc.net/img/logo.jpg">
+  <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="manifest" href="/img/site.webmanifest">
+  <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: MyEEB1 Students' Application
+    Theme URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+    Author: BootstrapMade.com - Leo Florea
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  
+  
+
+  <!--/ Nav Start /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.php">MyEEB<span class="color-b">1</span></a>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.php">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="alert('You can go to Vie Scolaire after 15:00 to view your absent teachers for the next day!')">Absences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.php">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://cde.bissc.net">CdE Website</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="notes.php">Notes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="food.php">Canteen and Cafeteria</a>
+          </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Other
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="http://www.uccleparents.org/eureka-home/news-et-informations/?lang=en">Lost and Found</a>
+                  <a class="dropdown-item" href="https://www.instagram.com/cdeofficial/?__a=1
+                  ">CdE Instagram</a>
+                  <a class="dropdown-item" href="#" onclick="alert('WiFi codes available in Office365 Outlook!')">WiFi Codes</a>
+                  <a class="dropdown-item" href="https://sms.eursc.eu/login.php">SMS</a>
+                  <a class="dropdown-item" href="http://www.eebxl1.eu/books.php">Booklist</a>
+                  <a class="dropdown-item" href="https://office365.eursc.eu/">Office365</a>
+                  <a class="dropdown-item" href="https://www.eeb1.com/en/practical-information/b-test-calendar/">B-test dates</a>
+                  <a class="dropdown-item" href="https://www.eeb1.com/en/school-holiday-calendar/">Official holiday calendar</a>
+                  <a class="dropdown-item" href="http://www.uccleparents.org/transport-home/organisation-du-service-transport/?lang=en">Bus Info</a>
+                  <a class="dropdown-item" href="about.php">About</a>
+               </div>
+              </li>
+        
+
+        </ul>
+      </div>
+      </button>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+  <!--/ Carousel Star /-->
+  <div class="intro intro-carousel">    
+      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-2.jpg)">
+        <div class="overlay overlay-a"></div>
+        <div class="intro-content display-table">
+          <div class="table-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="intro-body">
+                    <h1 class="intro-title mb-4" style="margin-bottom: -2.5rem !important">
+                     <span class="color-b">EEB1 </span> Uccle
+                      <br> European School of Brussels I<br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Carousel end /-->
+
+  <!--/ Services Star /-->
+  <section class="section-services section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-between">
+            <div class="title-box">
+              <h2 class="title-a">Made by the CdE...</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+               <span class="fa fa-bed"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Absences</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                Find out how to view the absences list one day before to see whether your course runs in the morning or not. If you are lucky, you can sleep in in the morning!
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="absences.php" class="link-c link-icon">Absences
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-th-list"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Schedule</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                You can view your scehdule easily after uploading an image of it to the website. No need to get it out of your bag anymore!
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="schedule.php" class="link-c link-icon">Schedule
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-box-c foo">
+            <div class="card-header-c d-flex">
+              <div class="card-box-ico">
+                <span class="fa fa-commenting-o"></span>
+              </div>
+              <div class="card-title-c align-self-center">
+                <h2 class="title-c">Notes</h2>
+              </div>
+            </div>
+            <div class="card-body-c">
+              <p class="content-c">
+                In addition to all the links we have collected (ex. Canteen and Cafeteria, Office365, SMS, B-test dates, holidays etc) we have a notes function. Never forget your thoughts anymore!
+              </p>
+            </div>
+            <div class="card-footer-c">
+              <a href="chat.php" class="link-c link-icon">Notes
+                <span class="ion-ios-arrow-forward"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  <!--/ footer Star /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">CdE EEB1 Contact</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                To contact the CdE, please visit our <a href="https://cde.bissc.net">website</a>, write us an email to cdeseleves@gmail.com, or check out our <a href="https://www.instagram.com/cdeofficial/?__a=1">Instagram</a>.
+                To contact our school, please visit the official <a href="https://eeb1.com">website</a>.
+              </p>
+            </div>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Quick Links</h3>
+            </div>
+            <div class="w-body-a">
+              <div class="w-body-a">
+                <ul class="list-unstyled">
+                
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="https://eeb1.com">EEB1 Website</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="http://www.uccleparents.org/?lang=en">APEEE Website</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="https://cde.bissc.net">CdE Website</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="http://markspolakovs.me/BACMAN/">BAC Practice (S7)</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="https://bissc.net">BISSC</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="http://eurscmag.eu/">Eurscmag</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="https://www.eursc.eu/en">EURSC</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="https://www.eursc.eu/en/European-Schools/studies/studies-organisation">Syllabuses</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="https://www.facebook.com/CoSupES/">CoSup</a>
+                </li>
+
+                 <li class="item-list-a">
+                    <i class="fa fa-angle-right"></i> <a href="http://www.schola-europaea.eu/cree/">Complaints Board</a>
+                </li>
+
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 section-md-t3">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">By the CdE</h3>
+            </div>
+            <div class="w-body-a">
+              <ul class="list-unstyled">
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://cde.bissc.net">CdE Website</a>
+                </li>
+                 <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://www.instagram.com/cdeofficial/?__a=1">CdE Instagram</a>
+                </li>
+                <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="https://bissc.net/category/cde/">CdE News and Events</a>
+                </li>
+                </li>
+                   <li class="item-list-a">
+                  <i class="fa fa-angle-right"></i> <a href="about.php">CdE Team</a>
+                </li>
+          
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="nav-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://eeb1.com">EEB1 Website</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://cde.bissc.net">CdE Website</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="about.php">About the App</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="socials-a">
+            <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/cdeofficial/?__a=1">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://cde.bissc.net">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/CDEUccleTimes/">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright
+              <span class="color-a">CdE EEB1</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
+            -->
+            Designed by <a href="https://bootstrapmade.com/">Leo Florea</a> and programmed by <a href="https://github.com/lacicloud">Laszlo Molnarfi</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+
+<script>
+
+
+</script>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
